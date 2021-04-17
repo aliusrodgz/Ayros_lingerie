@@ -1,0 +1,32 @@
+$color-principal: 
+    rgb(146, 11, 33);
+
+$color-secundario: 
+    rgb(241, 107, 130); 
+
+$tipografia-principal:
+    'Poppins', 'sans-serif'; 
+
+$tipografia-titulo:
+    'Satisfy', 'cursive';
+
+$color-degradado:
+        linear-gradient(to top,
+        #927008e5,
+        #b98d07e7, 
+        #cf9f10d3,
+        #cfa62ba8, 
+        #ffd14893,
+        #ffd148d8);
+
+%flex-centro{
+        display: flex;
+        flex-direction:column;
+        align-items: center;
+        padding: 50px;
+        margin: 5px;
+        }
+
+.tipografia_basica{
+    color: black;
+    font-family: $tipografia-principal} 

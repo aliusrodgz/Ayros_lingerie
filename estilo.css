@@ -1,0 +1,141 @@
+*{  margin:0 ;
+    padding:0 ;
+    box-sizing: border-box;
+}
+
+/*principal*/
+main{   
+        background-color:rgba(255, 255, 255, 0.301);
+        background-image: url("https://static.vecteezy.com/system/resources/previews/002/030/908/non_2x/white-background-with-pretty-flowers-free-photo.jpg");
+        background-size: cover;
+        padding-top: 130px;
+        padding-bottom: 150px;
+}
+
+header{
+        color:rgb(136, 1, 42) !important;
+        width: 100%;
+        position: fixed;
+        
+}
+
+/*paginas*/
+
+.conjuntos{
+        padding: 20px;
+        margin: 10px;
+}
+
+.tabla1, .tabla2{
+        padding-top: 5%;
+        padding-bottom: 5%; 
+        padding-left: 5%;
+        }
+.tabla2{
+        margin: 5px;
+        }
+
+.inicio {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding-top: 25px;
+}
+
+
+.imginicio{ width: 380px;
+        height: 470px;
+
+}
+
+/*aplicado con boostrap*/
+
+.botonprincipal{
+        width: 180px;
+        height: 40px;
+        border-radius: 80px;
+        padding: 5px;
+        font-size: 1.0em;
+        color: white;
+}   
+
+
+
+/*Grid*/
+.container-tabla{
+        display: grid;
+        grid-template-columns: 45% 45%;
+        column-gap: 20px;
+
+}
+
+.form-grids{
+        display: grid;
+        grid-template-rows: 50px 50px 280px 50px;
+        grid-template-columns: 300px 350px 220px;
+        grid-row-gap: 5px;
+        grid-column-gap: 5px;
+}
+    .form-nombre{
+        grid-column: 1/3;
+        grid-row: 1/4;
+}
+    
+    .form-apellido{
+        grid-column: 2/3;
+        grid-row: 1/4;
+}
+    .form-ecivil{
+        grid-column: 1/3;
+        grid-row: 2/4;
+    }
+    .form-mensaje{
+        grid-column: 1/3;
+        grid-row: 3/4;
+    }
+    .form-news{
+        grid-column: 1/3;
+        grid-row: 4/4;
+    }
+    .form-enviar{
+        grid-column: 3/3;
+        grid-row: 4/4;
+    }
+
+    .cabecilla{
+        margin-top: 50px;
+        margin-left: 93px;
+}
+    .contactanos form{
+        background-color:rgba(253, 253, 253, 0.6);
+        border-radius: 20px;
+        width: 900px;
+        height: 0px;
+        font-size: 1.3rem;
+        padding-top: 35px;
+        padding-left: 40px;
+        padding-right: 40px;
+        margin-left: 90px;
+        padding-bottom: 500px;       
+    }
+
+  
+    form input{
+        width: 220px;
+        height: 30px;
+        border-radius: 5px;
+    
+    }
+    form select{  width: 190px;
+        height: 30px;
+        border-radius: 5px;
+
+    }
+    form textarea{
+        font-size: 1.5rem;
+        border-radius: 5px;
+    }
+
+
+
+
