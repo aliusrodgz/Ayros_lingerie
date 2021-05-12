@@ -25,26 +25,53 @@ footer{
     background-size: cover;
     color:black;
     text-align: center;
-    padding: 50px;    
+    padding: 50px;
+    width: 100%; 
+      
 }
-.cajas{
+.footer_iconos{
+    width: 40px;
+    height: 40px;
+    display: flex;
+}
+.productos{
+    background-color: rgba(255, 255, 255, 0.842);
+    padding: 80px;
+    margin: 40px;
+
+}
+.nav_logo{
+  width: 260px;
+  height: 110px;
+  margin-left: 40px;
+
+}
+.flex-footer_iconos{
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+    align-items: flex-end;
+ 
+
+}
+.caja-producto{
      width: 380px;
     height: 560px;
     background-color: rgb(255, 255, 255);
     border-radius: 10px;
-    @extend %flex-centro;
-    
+    @extend %flex-centro
 
 }
 
-.conjuntos_imagen{
+.producto_imagen{
     width: 280px;
     height: 500px;
     padding:5px;
     margin: 80px, 80px;
 
 }
-.producto-comprar{ width: 30px;
+.icono-comprar{ 
+    width: 30px;
     height: 30px;
     display: flex;
     flex-direction: row; 
@@ -53,17 +80,14 @@ footer{
 
 } 
 
-.flex-container{
+.flex-productos{
     display: flex;
     flex-direction: row-reverse;
     flex-wrap: wrap;
     justify-content: space-around;
     padding: 80px;
     background-color: rgba(255, 255, 255, 0.712);
-    
-
 }   
-
 
 
 .menu_boton{
@@ -75,7 +99,6 @@ footer{
     border-color: $color-secundario !important;
     padding: 5px;
     font-size: 1.0em;
-
 }
 
 .menu_botones{
@@ -83,12 +106,13 @@ footer{
     flex-flow: column;
     flex-direction: row;
     align-items: flex-end;
-
-
 }
+
+
 .botonprincipal{
     background-color: $color-principal;   
 }
+
 
 th{
     background-color:$color-principal;
@@ -102,46 +126,66 @@ td{
 }
 
 
-h2{
-    @extend .tipografia_basica;
-    font-size: 1.8em;     
+h1{
+    font-family: $tipografia_titulo;
+    font-size: 2.3em;
+    padding-left: 75px;  
+    padding-top: 30px;   
 }
+
 
 h3{
     @extend .tipografia_basica;
     font-size: 1.2em;   
 }
 
-.menu_h1{
-    font-family: $tipografia-titulo;
-    font-size: 2.5em;
-    padding-top: 15px;
-    float: left;
+
+
+.flex-navbar{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: stretch;
 }
 
 .menu_nav {
 
     text-align: right;
     padding: 0px 50px 20px 0px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.959);
     li{
         padding: 12px;
         display: inline-block;    
 }}
 
-.header_menudespegable{
-    width: 1000px;
-    border-radius: 8px !important;
-    background-color:rgba(255, 255, 255, 0.788)!important;
-  
 
+header{
+    width: 100%;
+    position: fixed;  
+}
+
+
+.nav-menudespegable{
+    width: 250px;
+    border-radius: 8px;
+    background-color:rgba(0, 0, 0, 0.89) !important;
+    text-align: left;
 }
 
 .menudespegable_li{
         position: relative;
 }
 
-.menudesplegable_ul {
+.nav_items {
+   padding-top: 20px;
+}
+
+
+.nav_ul {
     list-style: none;
+    padding-left: 0px;
+
     li:hover ul{
         display: block;
         background-color: $color-principal;
@@ -156,6 +200,11 @@ h3{
     }
 }
 
+.nav-link{
+    text-decoration: none;
+    color: white;
+     
+}
 
 /*Animaciones*/
 .nav-item:hover{
@@ -163,8 +212,7 @@ h3{
 }
 
 
-.menu_boton:hover
-{
+.menu_boton:hover{
         transform: scale(1.1);
         background-color:$color-secundario !important;
 }
@@ -181,3 +229,35 @@ h3{
     margin-bottom: 300px;
 
 }
+.inicio_video {
+    @extend %flex-centro;
+    padding-top: 25px;
+}
+
+
+.imginicio{
+    width: 380px;
+    height: 470px;
+}
+
+
+
+
+
+ /*
+.menu_bar{
+    display: none;
+}
+.menu_bar{
+    display: block;
+    width: 100%;
+    background: red;
+}
+
+.nav-descuento{
+    display: block;
+    width: 100%;
+    background: $color-principal;
+    text-align: center;
+}
+*/
