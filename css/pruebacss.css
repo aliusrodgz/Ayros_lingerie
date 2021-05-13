@@ -1,11 +1,9 @@
 @import url(http://fonts.googleapis.com/css?family=Roboto+Slab|Open+Sans:400italic,700italic,400,700);
 @import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
-.main_iniciosesion, .main_registro, .inicio_buscador, .caja-producto, .inicio_galeria, .inicio_video {
+.main_iniciosesion, .main_registro, .inicio_buscador, .inicio_galeria, .inicio_video, .caja-producto {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  padding: 50px;
-  margin: 5px; }
+  align-items: center; }
 
 .tipografia_basica, h2, h3 {
   color: black;
@@ -24,23 +22,170 @@
 .inicio_galeria_img-3 {
   width: 630px; }
 
+.inicio_galeria_img-4 {
+  width: 840px; }
+
+.inicio_galeria_img-5 {
+  width: 1050px; }
+
+.inicio_galeria_img-6 {
+  width: 1260px; }
+
+.inicio_galeria_img-7 {
+  width: 1470px; }
+
+.inicio_galeria_img-8 {
+  width: 1680px; }
+
+.inicio_galeria_img-9 {
+  width: 1890px; }
+
+.inicio_galeria_img-10 {
+  width: 2100px; }
+
+.inicio_galeria_img-11 {
+  width: 2310px; }
+
+.inicio_galeria_img-12 {
+  width: 2520px; }
+
+.inicio_galeria_img-13 {
+  width: 2730px; }
+
+.inicio_galeria_img-14 {
+  width: 2940px; }
+
+.inicio_galeria_img-15 {
+  width: 3150px; }
+
+.inicio_galeria_img-16 {
+  width: 3360px; }
+
+.inicio_galeria_img-17 {
+  width: 3570px; }
+
+.inicio_galeria_img-18 {
+  width: 3780px; }
+
+.inicio_galeria_img-19 {
+  width: 3990px; }
+
+.inicio_galeria_img-20 {
+  width: 4200px; }
+
+.inicio_galeria_img-21 {
+  width: 4410px; }
+
+.inicio_galeria_img-22 {
+  width: 4620px; }
+
+.inicio_galeria_img-23 {
+  width: 4830px; }
+
+.inicio_galeria_img-24 {
+  width: 5040px; }
+
+.inicio_galeria_img-25 {
+  width: 5250px; }
+
+.inicio_galeria_img-26 {
+  width: 5460px; }
+
+.inicio_galeria_img-27 {
+  width: 5670px; }
+
+.inicio_galeria_img-28 {
+  width: 5880px; }
+
+.inicio_galeria_img-29 {
+  width: 6090px; }
+
+.inicio_galeria_img-30 {
+  width: 6300px; }
+
+.inicio_galeria_img-31 {
+  width: 6510px; }
+
+.inicio_galeria_img-32 {
+  width: 6720px; }
+
+.inicio_galeria_img-33 {
+  width: 6930px; }
+
+.inicio_galeria_img-34 {
+  width: 7140px; }
+
+.inicio_galeria_img-35 {
+  width: 7350px; }
+
+.inicio_galeria_img-36 {
+  width: 7560px; }
+
+.inicio_galeria_img-37 {
+  width: 7770px; }
+
+.inicio_galeria_img-38 {
+  width: 7980px; }
+
+.inicio_galeria_img-39 {
+  width: 8190px; }
+
+.inicio_galeria_img-40 {
+  width: 8400px; }
+
+.inicio_galeria_img-41 {
+  width: 8610px; }
+
+.inicio_galeria_img-42 {
+  width: 8820px; }
+
+.inicio_galeria_img-43 {
+  width: 9030px; }
+
+.banner_inicio {
+  width: 100%;
+  background-color: #c00066;
+  padding-left: 200px; }
+  .banner_inicio .banner_inicio-img {
+    width: 845px;
+    height: 240px; }
+
+.inicio_galeria {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: stretch;
+  width: 300px;
+  height: 200px;
+  padding: 20px 170px 80px 80px;
+  margin: 20px 300px 300px 80px; }
+
+.inicio_video {
+  padding-top: 25px;
+  margin-bottom: 90px; }
+
+.imginicio {
+  width: 380px;
+  height: 470px; }
+
 footer {
-  background-image: linear-gradient(to top, #920826e5, #b9073ce7, #cf1040d3, #cf2b4fa8, #ff487693);
+  background-image: linear-gradient(to top, #850420e5, #b9073ce7, #b30631d3, #cc143ca8, #f31d5293);
   background-size: cover;
   color: black;
   text-align: center;
   padding: 50px;
   width: 100%; }
-
-.footer_iconos {
-  width: 40px;
-  height: 40px;
-  display: flex; }
+  footer .footer_iconos {
+    width: 40px;
+    height: 40px;
+    display: flex; }
 
 .productos {
   background-color: rgba(255, 255, 255, 0.842);
-  padding: 80px;
-  margin: 40px; }
+  padding: 100px;
+  margin: 40px;
+  width: 1400px;
+  height: 700px; }
 
 .nav_logo {
   width: 260px;
@@ -175,22 +320,6 @@ header {
 .menu_boton:hover {
   transform: scale(1.1);
   background-color: #f16b82 !important; }
-
-.inicio_galeria {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  align-items: stretch;
-  width: 300px;
-  height: 200px;
-  margin-bottom: 300px; }
-
-.inicio_video {
-  padding-top: 25px; }
-
-.imginicio {
-  width: 380px;
-  height: 470px; }
 
 /*
 .menu_bar{

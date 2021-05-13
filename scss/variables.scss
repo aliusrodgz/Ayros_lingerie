@@ -12,19 +12,18 @@ $tipografia-titulo:
 
 $color-degradado:
         linear-gradient(to top,
-        #920826e5,
+        #850420e5,
         #b9073ce7, 
-        #cf1040d3,
-        #cf2b4fa8, 
-        #ff487693,
+        #b30631d3,
+        #cc143ca8, 
+        #f31d5293,
         );
 
 %flex-centro{
         display: flex;
         flex-direction:column;
         align-items: center;
-        padding: 50px;
-        margin: 5px;
+
         }
 
 .tipografia_basica{

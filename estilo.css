@@ -8,7 +8,12 @@ main{
         background-image: url("https://static.vecteezy.com/system/resources/previews/002/030/908/non_2x/white-background-with-pretty-flowers-free-photo.jpg");
         background-size: cover;
         padding-top: 180px;
-        padding-bottom: 150px;
+        padding-bottom: 5px;
+}
+
+.contactanos{
+    padding-bottom: 150px;
+
 }
 
 
