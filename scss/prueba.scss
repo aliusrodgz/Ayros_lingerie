@@ -17,6 +17,7 @@
 section{
     background-color: rgba(0, 0, 0, 0.301);
     padding-top: 120px;
+    padding-bottom: 100px;
 } 
 
 main{
@@ -24,6 +25,16 @@ main{
     background-size: cover;
 
 }
+
+._productos{
+    background-color: rgba(255, 255, 255, 0.219);
+    width: 90%;
+    margin: 80px;
+    padding: 80px;
+    @extend %flex-centro;
+
+}
+
 .flex-contactanos{
     padding: 0;
     margin: 0;
@@ -87,10 +98,9 @@ footer{
 
 
 .productos{
-    background-color: rgba(255, 255, 255, 0.842);
-    padding: 100px;
+    background-color: rgba(255, 255, 255, 0.548);
     margin: 40px;
-    width: 1400px;
+    width: 1600px;
     height: 700px;
 }
 
