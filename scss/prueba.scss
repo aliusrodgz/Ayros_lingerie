@@ -113,7 +113,6 @@ footer{
     background-color: $color-principal;   
 }
 
-
 th{
     background-color:$color-principal;
     color: white;
@@ -133,6 +132,11 @@ h1{
     padding-top: 30px;   
 }
 
+
+h2{
+    @extend .tipografia_basica;
+    font-size: 1.8em;     
+}
 
 h3{
     @extend .tipografia_basica;
