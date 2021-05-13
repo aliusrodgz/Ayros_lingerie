@@ -3,56 +3,53 @@
 @import "variables";
 
 
-.main_iniciosesion,.main_registro {
-    @extend %flex-centro;
+.main_iniciosesion,
+.main_registro {
+        @extend %flex-centro;
+        padding: 150px;
 }
 
-.inicio_buscador{
-    @extend %flex-centro;
-    .inicio_buscador--item{
-        width: 300px;
-        height: 38px;
-    }
-}
 
 @for $i from 1 through 43 {
     .inicio_galeria_img-#{$i}{width: 210px * $i;}
+   
+}
+
+.index-inicio{
+    background-color: black;
+
+    .inicio_galeria {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: stretch;
+        width: 300px;
+        height: 200px;
+        @extend %flex-centro;
+        padding: 20px 170px 80px 80px;
+        margin: 20px 300px 300px 80px;
     
-}
-
-
-.banner_inicio{
-    width: 100%;
-    background-color:#c00066;
-    padding-left: 200px;
-
-    .banner_inicio-img{
-        width: 845px;
-        height:240px;
     }
-}
-
-.inicio_galeria {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    align-items: stretch;
-    width: 300px;
-    height: 200px;
-    @extend %flex-centro;
-    padding: 20px 170px 80px 80px;
-    margin: 20px 300px 300px 80px;
-
-}
-.inicio_video {
-    @extend %flex-centro;
-    padding-top: 25px;
-    margin-bottom: 90px;
-}
-
-.imginicio{
-    width: 380px;
-    height: 470px;
+    .inicio_video {
+        @extend %flex-centro;
+        padding-top: 25px;
+        margin-bottom: 90px;
+    }
+    
+    .imginicio{
+        width: 380px;
+        height: 470px;
+    }
+    
+    .inicio-banner{
+        width: 100%;
+        background-color:#c00066;
+        padding-left: 200px;
+    
+        .inicio_banner-img{
+            width: 845px;
+            height:240px;
+    }   }   
 }
 
 
@@ -63,14 +60,21 @@ footer{
     text-align: center;
     padding: 50px;
     width: 100%; 
+}
+    .flex-footer_iconos{
+        display: flex;
+        flex-direction: row-reverse;
+        flex-wrap: nowrap;
+        align-items: flex-end;
+    }
 
     .footer_iconos{
         width: 40px;
         height: 40px;
         display: flex;
     }
-      
-}
+    
+
 
 .productos{
     background-color: rgba(255, 255, 255, 0.842);
@@ -78,56 +82,55 @@ footer{
     margin: 40px;
     width: 1400px;
     height: 700px;
-
-
 }
-.nav_logo{
-  width: 260px;
-  height: 110px;
-  margin-left: 40px;
 
-}
-.flex-footer_iconos{
-    display: flex;
-    flex-direction: row-reverse;
-    flex-wrap: nowrap;
-    align-items: flex-end;
- 
+    .productos-buscador{
+        @extend %flex-centro;
+    }
 
-}
-.caja-producto{
-     width: 380px;
+    .inicio_buscador--item{
+        width: 300px;
+        height: 38px;
+    }
+
+
+
+
+.caja-producto
+    {
+    width: 380px;
     height: 560px;
     background-color: rgb(255, 255, 255);
+    padding: 15px;
+    margin: 30px;
     border-radius: 10px;
     @extend %flex-centro
-
-}
-
-.producto_imagen{
-    width: 280px;
-    height: 500px;
-    padding:5px;
-    margin: 80px, 80px;
-
-}
-.icono-comprar{ 
-    width: 30px;
-    height: 30px;
-    display: flex;
-    flex-direction: row; 
-    justify-content: flex-end;
-    
-
 } 
 
+    .producto_imagen{
+        width: 280px;
+        height: 500px;
+        padding:5px;
+        margin: 80px, 80px;
+    
+    }
+    
+    .icono-comprar{ 
+        width: 30px;
+        height: 30px;
+        display: flex;
+        flex-direction: row; 
+        justify-content: flex-end;
+        
+    } 
+._fondo,
 .flex-productos{
     display: flex;
     flex-direction: row-reverse;
     flex-wrap: wrap;
     justify-content: space-around;
     padding: 80px;
-    background-color: rgba(255, 255, 255, 0.712);
+   
 }   
 
 
@@ -148,7 +151,11 @@ footer{
     flex-direction: row;
     align-items: flex-end;
 }
-
+.nav_logo{
+    width: 260px;
+    height: 110px;
+    margin-left: 40px;
+  }
 
 .botonprincipal{
     background-color: $color-principal;   
