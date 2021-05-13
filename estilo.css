@@ -4,20 +4,6 @@
 }
 
 
-main{   
-        background-image: url("https://static.vecteezy.com/system/resources/previews/002/030/908/non_2x/white-background-with-pretty-flowers-free-photo.jpg");
-        background-size: cover;
-
-        background-color: rgba(0, 0, 0, 0.568);
-}
-
-
-.contactanos{
-    padding-bottom: 150px;
-
-}
-
-
 .tabla1, .tabla2{
         padding-top: 5%;
         padding-bottom: 5%; 
@@ -83,40 +69,4 @@ main{
         grid-row: 4/4;
     }
 
-    .cabecilla{
-        margin-top: 50px;
-        margin-left: 93px;
-}
-    .contactanos form{
-        background-color:rgba(253, 253, 253, 0.6);
-        border-radius: 20px;
-        width: 900px;
-        height: 0px;
-        font-size: 1.3rem;
-        padding-top: 35px;
-        padding-left: 40px;
-        padding-right: 40px;
-        margin-left: 90px;
-        padding-bottom: 500px;       
-    }
-
-  
-    form input{
-        width: 220px;
-        height: 30px;
-        border-radius: 5px;
-    
-    }
-    form select{  width: 190px;
-        height: 30px;
-        border-radius: 5px;
-
-    }
-    form textarea{
-        font-size: 1.5rem;
-        border-radius: 5px;
-    }
-
-
-
-
+ 

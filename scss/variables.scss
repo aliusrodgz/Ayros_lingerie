@@ -12,11 +12,9 @@ $tipografia-titulo:
 
 $color-degradado:
         linear-gradient(to top,
-        #850420e5,
-        #b9073ce7, 
-        #b30631d3,
+        #92012cf1,
+        #b9073cf6, 
         #cc143ca8, 
-        #f31d5293,
         );
 
 %flex-centro{
@@ -28,4 +26,12 @@ $color-degradado:
 
 .tipografia_basica{
     color: black;
-    font-family: $tipografia-principal} 
+    font-family: $tipografia-principal
+} 
+
+
+.tipografia_titulo{
+        color: rgb(255, 255, 255);
+        font-family: $tipografia-principal;
+        font-size: 3.9em;
+    } 
