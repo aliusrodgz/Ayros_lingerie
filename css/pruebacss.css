@@ -1,7 +1,7 @@
 @import url(http://fonts.googleapis.com/css?family=Roboto+Slab|Open+Sans:400italic,700italic,400,700);
 @import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
 .main_iniciosesion,
-.main_registro, ._productos, .inicio_galeria, .inicio_video, .productos-buscador, .caja-producto {
+.main_registro, ._productos, .inicio_galeria, .inicio_video, .caja-producto {
   display: flex;
   flex-direction: column;
   align-items: center; }
@@ -150,8 +150,7 @@
 
 section {
   background-color: rgba(0, 0, 0, 0.301);
-  padding-top: 120px;
-  padding-bottom: 100px; }
+  padding-top: 120px; }
 
 main {
   background-image: url(https://static.vecteezy.com/system/resources/previews/002/030/908/non_2x/white-background-with-pretty-flowers-free-photo.jpg);
@@ -253,12 +252,13 @@ footer {
 .botonprincipal {
   background-color: #920b21; }
 
-th {
+table th {
+  border: 2px solid black;
   background-color: #920b21;
   color: white; }
 
-td {
-  border: 1px solid black;
+table td {
+  border: 2px solid black;
   background-color: #f16b82;
   color: black; }
 

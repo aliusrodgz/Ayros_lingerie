@@ -17,7 +17,7 @@
 section{
     background-color: rgba(0, 0, 0, 0.301);
     padding-top: 120px;
-    padding-bottom: 100px;
+
 } 
 
 main{
@@ -104,9 +104,6 @@ footer{
     height: 700px;
 }
 
-    .productos-buscador{
-        @extend %flex-centro;
-    }
 
     .inicio_buscador--item{
         width: 300px;
@@ -155,16 +152,21 @@ footer{
  
 }
 
-th{
-    background-color:$color-principal;
-    color: white;
+table{
+
+    th{
+        border: 2px solid black;
+        background-color:$color-principal;
+        color: white;
+    }
+    
+    td{
+        border: 2px solid black;
+        background-color: $color-secundario;
+        color:black ;
+    }
 }
 
-td{
-    border: 1px solid black;
-    background-color: $color-secundario;
-    color:black ;
-}
 
 
 .letras{
